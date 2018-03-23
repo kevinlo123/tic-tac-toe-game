@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+#container {
+  height: 500px;
+  width: 40%;
+  border: 1px solid black;
+  margin: 0 auto;
+  font-size: 140px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blocks  {
+  height: 33.3333%;
+  width: 33.3333%;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.blocks:hover {
+  background: lightgreen;
+  cursor: pointer;
+}
+
+.reset-container {
+  margin: 2rem;
+}
+
+#reset {
+  background: white;
+  border: 1px solid black;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 1rem;
+  margin: 0 auto;
+  display: block;
+}
+
+#reset:hover {
+  background: black;
+  color: white;
+  transition: .3s all;
+}
