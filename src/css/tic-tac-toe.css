@@ -66,3 +66,76 @@ h1 {
   transition: .3s all;
   border-color: #EEDA76; 
 }
+
+@media only screen and (min-width: 1430px){
+  h1 {
+    font-size: 54px;
+  }
+
+  #container {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  #container {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 1150px){
+  #container {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 875px){
+  #container {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  #container {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 675px){
+  #container {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 555px){
+  #container {
+    width: 90%;
+    height: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #container {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 445px){
+  #container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  #container {
+    height: 400px;
+    font-size: 100px;
+  }
+}
+
+
+@media only screen and (max-width: 320px){
+  #container {
+    height: 350px;
+  }
+}
